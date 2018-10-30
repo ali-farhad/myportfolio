@@ -1,0 +1,79 @@
+.brand-logo {
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.section-intro {
+  margin-top: 50px;
+}
+
+.section-intro h4 {
+  font-weight: 700;
+}
+
+.section-intro h5 span {
+  font-size: 35px;
+}
+.screen {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  background-position: center;
+}
+
+.screen img {
+  position: absolute;
+  z-index: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding: 0;
+  top: 50 !important;
+}
+
+.section-more h5 span {
+  font-weight: 700;
+}
+
+.section-more h5 {
+  font-weight: 700;
+}
+
+.section-more {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section-intro h4 span {
+  font-size: 85px;
+}
+
+@media (max-width: 500px) {
+  .section-intro h4 span {
+    font-size: 27px;
+  }
+  .section-intro h4 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section-intro h4 span {
+    font-size: 52px;
+  }
+  .section-intro h4 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 400px) {
+  .section-intro h4 span {
+    font-size: 30px;
+  }
+  .section-intro h4 {
+    font-size: 16px;
+  }
+}
